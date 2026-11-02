@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kadé Keïta | Photographe à Conakry</title>
+  <meta name="description" content="Kadé Keïta, photographe à Conakry. Mariages, événements, portraits et couples.">
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;1,400;1,500&family=Inter:wght@400;500&family=Poppins:wght@400;500&display=swap" rel="stylesheet">
+    <style>
+    .site-header { background: transparent; border-bottom-color: transparent; }
+    .site-header.scrolled { background: rgba(255,255,255,0.95); border-bottom-color: var(--border); }
+    .hero-with-bg .logo { color: #fff; }
+    .hero-with-bg .nav-links a { color: #fff; }
+    .hero-with-bg .nav-links a::after { background: #fff; }
+    .hero-with-bg .nav-cta { color: #fff; border-color: rgba(255,255,255,0.4); background: rgba(255,255,255,0.08); backdrop-filter: blur(12px); -webkit-backdrop-filter: blur(12px); }
+    .hero-with-bg .nav-cta:hover { background: rgba(255,255,255,0.95); color: #111; border-color: #fff; }
+    .hero-with-bg .menu-toggle span { background: #fff; }
+    .site-header.scrolled .logo,
+    .site-header.scrolled .nav-links a,
+    .site-header.scrolled .nav-cta { color: var(--ink); }
+    .site-header.scrolled .nav-links a::after { background: var(--ink); }
+    .site-header.scrolled .nav-cta { border-color: var(--ink); }
+    .site-header.scrolled .nav-cta:hover { background: var(--ink); color: #fff; }
+    .site-header.scrolled .menu-toggle span { background: var(--ink); }
+  </style>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Aller au contenu</a>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="index.html" class="logo" aria-label="Kadé Keïta, accueil">Kadé <span>Keïta</span></a>
+      <button class="menu-toggle" aria-expanded="false" aria-label="Ouvrir le menu" aria-controls="nav">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <nav aria-label="Navigation principale">
+        <ul class="nav-links" id="nav">
+          <li><a href="index.html" class="active" aria-current="page">Accueil</a></li>
+          <li><a href="galerie.html">Galerie</a></li>
+          <li><a href="a-propos.html">À propos</a></li>
+          <li><a href="contact.html">Contact</a></li>
+            <li class="nav-cta-item"><a href="contact.html" class="nav-cta">Réserver</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero hero-with-bg">
+      <div class="hero-bg" aria-hidden="true">
+        <img src="https://images.unsplash.com/photo-1511285560929-80b456fea0bc?auto=format&fit=crop&w=2000&q=80" alt="">
+      </div>
+      <div class="hero-overlay"></div>
+      <div class="container hero-content-wrap">
+        <div class="hero-content">
+          <h1 class="reveal">Capturer l'instant,<br>raconter l'émotion</h1>
+          <div class="hero-actions reveal">
+            <a href="galerie.html" class="btn btn-accent">Voir le portfolio</a>
+            <a href="contact.html" class="btn btn-ghost">Réserver</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="strip">
+      <div class="container strip-inner">
+        <div class="strip-item reveal">
+          <strong>01</strong>
+          <span>Mariages · Émotions &amp; regards</span>
+        </div>
+        <div class="strip-item reveal">
+          <strong>02</strong>
+          <span>Événements · Énergie &amp; moments forts</span>
+        </div>
+        <div class="strip-item reveal">
+          <strong>03</strong>
+          <span>Portraits &amp; Couples · Personnalités &amp; complicités</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="section-head center reveal">
+          <h2>Portfolio</h2>
+          <p>Quatre univers à découvrir.</p>
+        </div>
+
+        <div class="cat-grid">
+          <a href="galerie.html?cat=mariages" class="cat-card reveal">
+            <img src="https://images.unsplash.com/photo-1511285560929-80b456fea0bc?auto=format&fit=crop&w=900&q=80" alt="Mariage : les mariés échangent leurs vœux">
+            <div class="cat-overlay">
+              <span class="cat-count">Galerie</span>
+              <h3>Mariages</h3>
+              <p>Les émotions, les regards et les sourires qui rendent chaque mariage unique.</p>
+            </div>
+          </a>
+          <a href="galerie.html?cat=evenements" class="cat-card reveal">
+            <img src="https://images.unsplash.com/photo-1492684223066-81342ee5ff30?auto=format&fit=crop&w=900&q=80" alt="Événement : fête éclairée et conviviale">
+            <div class="cat-overlay">
+              <span class="cat-count">Galerie</span>
+              <h3>Événements</h3>
+              <p>L'énergie et les moments forts de vos événements, capturés sur le vif.</p>
+            </div>
+          </a>
+          <a href="galerie.html?cat=portraits" class="cat-card reveal">
+            <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=900&q=80" alt="Portrait de femme souriante">
+            <div class="cat-overlay">
+              <span class="cat-count">Galerie</span>
+              <h3>Portraits &amp; shootings</h3>
+              <p>Votre personnalité, votre style, votre expression, mis en valeur.</p>
+            </div>
+          </a>
+          <a href="galerie.html?cat=couples" class="cat-card reveal">
+            <img src="https://images.unsplash.com/photo-1516589178581-6cd7833ae3b2?auto=format&fit=crop&w=900&q=80" alt="Couple complice dans un cadre naturel">
+            <div class="cat-overlay">
+              <span class="cat-count">Galerie</span>
+              <h3>Couples &amp; lifestyle</h3>
+              <p>La complicité et les petits instants qui deviennent de beaux souvenirs.</p>
+            </div>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-alt">
+      <div class="container about-split">
+        <img class="reveal" src="https://images.unsplash.com/photo-1542037104857-ffbb0b9155fb?auto=format&fit=crop&w=900&q=80" alt="Photographe en action, travaillant son cadrage">
+        <div class="about-body reveal">
+          <h2>À propos</h2>
+          <p>Je suis Kadé Keïta, photographe basée à Conakry. Depuis deux ans, je cherche avant tout à capturer ce qui rend chaque moment unique : une émotion, un regard, un sourire, une complicité.</p>
+          <blockquote class="about-quote">Une belle photographie ne se résume pas à une belle image. Elle doit transmettre une émotion et permettre de revivre un moment.</blockquote>
+          <p>Images naturelles, élégantes et authentiques, adaptées à chaque personnalité et à chaque ambiance.</p>
+          <div class="skills" aria-label="Spécialités">
+            <span>Mariages</span>
+            <span>Événementiel</span>
+            <span>Portraits</span>
+            <span>Shootings</span>
+            <span>Couples</span>
+            <span>Lifestyle</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="section-head center reveal">
+          <h2>Prestations</h2>
+          <p>Chaque séance s'adapte à votre style et à votre projet.</p>
+        </div>
+        <div class="services-grid">
+          <article class="service-card reveal">
+            <span class="service-num">01</span>
+            <h3>Photographie de mariage</h3>
+            <p>Les émotions, les regards et les moments précieux de votre plus beau jour.</p>
+          </article>
+          <article class="service-card reveal">
+            <span class="service-num">02</span>
+            <h3>Événementiel</h3>
+            <p>L'énergie et les moments forts de vos anniversaires, soirées et célébrations.</p>
+          </article>
+          <article class="service-card reveal">
+            <span class="service-num">03</span>
+            <h3>Portraits &amp; shootings</h3>
+            <p>Des séances pensées pour mettre en valeur chaque personnalité et chaque style.</p>
+          </article>
+          <article class="service-card reveal">
+            <span class="service-num">04</span>
+            <h3>Photographie de couples</h3>
+            <p>La complicité et l'émotion qui vous lient, immortalisées avec naturel.</p>
+          </article>
+          <article class="service-card reveal">
+            <span class="service-num">05</span>
+            <h3>Séances lifestyle</h3>
+            <p>Des images spontanées et authentiques de votre quotidien qui devient souvenir.</p>
+          </article>
+          <article class="service-card reveal">
+            <span class="service-num">06</span>
+            <h3>Tarifs sur devis</h3>
+            <p>Chaque projet étant unique, les prestations sont proposées sur devis selon vos besoins.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-alt">
+      <div class="container">
+        <div class="cta-banner reveal">
+          <div>
+            <h2>Transformons vos moments en souvenirs</h2>
+            <p>Contactez-moi pour réserver votre séance ou demander un devis.</p>
+          </div>
+          <a href="contact.html" class="btn btn-ghost">Me contacter</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="index.html" class="logo">Kadé <span>Keïta</span></a>
+          <p>Photographe à Conakry, Guinée. « Capturer l'instant, raconter l'émotion. » Déplacements possibles selon les projets.</p>
+        </div>
+        <nav class="footer-col" aria-label="Navigation pied de page">
+          <h4>Navigation</h4>
+          <ul>
+            <li><a href="index.html">Accueil</a></li>
+            <li><a href="galerie.html">Galerie</a></li>
+            <li><a href="a-propos.html">À propos</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
+        <nav class="footer-col" aria-label="Galeries">
+          <h4>Galeries</h4>
+          <ul>
+            <li><a href="galerie.html?cat=mariages">Mariages</a></li>
+            <li><a href="galerie.html?cat=evenements">Événements</a></li>
+            <li><a href="galerie.html?cat=portraits">Portraits &amp; shootings</a></li>
+            <li><a href="galerie.html?cat=couples">Couples &amp; lifestyle</a></li>
+          </ul>
+        </nav>
+        <nav class="footer-col" aria-label="Contact">
+          <h4>Contact</h4>
+          <ul>
+            <li><a href="mailto:kadekeita277@gmail.com">kadekeita277@gmail.com</a></li>
+            <li><a href="https://wa.me/224626583889" target="_blank" rel="noopener">+224 626 58 38 89</a></li>
+            <li>Conakry, Guinée</li>
+          </ul>
+        </nav>
+      </div>
+      <div class="footer-bottom">
+        <span>© <span data-year>2026</span> Kadé Keïta - Tous droits réservés.</span>
+        <a href="mentions-legales.html">Mentions légales</a>
+      </div>
+    </div>
+  </footer>
+
+  <div class="lightbox" role="dialog" aria-modal="true" aria-label="Visionneuse de photographies">
+    <button class="lightbox-close" aria-label="Fermer">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M18 6 6 18M6 6l12 12"/></svg>
+    </button>
+    <button class="lightbox-prev" aria-label="Photographie précédente">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m15 18-6-6 6-6"/></svg>
+    </button>
+    <img src="" alt="">
+    <button class="lightbox-next" aria-label="Photographie suivante">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m9 18 6-6-6-6"/></svg>
+    </button>
+    <p class="lightbox-caption"></p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
