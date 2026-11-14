@@ -28,5 +28,5 @@ Déployé sur [Vercel](https://vercel.com).
 ## Contact
 
 - Email : kadekeita277@gmail.com
-- WhatsApp : +224 626 58 38 89
+- WhatsApp : +224 626 58 38 98
 - Localisation : Conakry, Guinée
