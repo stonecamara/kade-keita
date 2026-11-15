@@ -5,6 +5,7 @@
   --muted: #A0A0A0;
   --accent: #E63946;
   --accent-strong: #B3121F;
+  --accent-light: #F28B94;
   --accent-soft: #1C1C1C;
   --border: #262626;
   --radius: 4px;
@@ -110,14 +111,15 @@ a:hover { color: var(--muted); }
 .nav-cta {
   font-size: 0.86rem;
   padding: 10px 26px;
-  border: 1px solid var(--ink);
-  color: var(--ink);
+  border: 1px solid var(--accent-strong);
+  background: var(--accent-strong);
+  color: #fff;
   letter-spacing: 1px;
   text-transform: uppercase;
   transition: background 0.3s ease, color 0.3s ease;
   cursor: pointer;
 }
-.nav-cta:hover { background: var(--accent-strong); border-color: var(--accent-strong); color: #fff; transform: none; }
+.nav-cta:hover { background: #8F0E18; border-color: #8F0E18; color: #fff; transform: none; }
 
 .menu-toggle {
   display: none;
@@ -191,6 +193,8 @@ a:hover { color: var(--muted); }
   color: #111;
   border-color: #fff;
 }
+.hero-with-bg .btn-accent { background: var(--accent-strong); border-color: var(--accent-strong); color: #fff; }
+.hero-with-bg .btn-accent:hover { background: #8F0E18; border-color: #8F0E18; color: #fff; }
 
 .eyebrow {
   display: inline-flex;
@@ -748,6 +752,23 @@ a:focus-visible, button:focus-visible, input:focus-visible, textarea:focus-visib
   outline: 3px solid rgba(230, 57, 70, 0.6);
   outline-offset: 2px;
   border-radius: 6px;
+}
+
+/* Title accents */
+.hero h1,
+.hero-with-bg .hero-content h1,
+.page-hero h1,
+.section-head h2,
+.about-body h2,
+.about-body h3,
+.gallery-intro h2,
+.text-block h2,
+.text-block h3,
+.contact-info h2,
+.service-card h3,
+.cat-overlay h3,
+.form-card h2 {
+  color: var(--accent-light);
 }
 
 /* Responsive */
