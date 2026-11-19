@@ -358,6 +358,7 @@ a:hover { color: var(--muted); }
   letter-spacing: -0.01em;
 }
 .about-body p { color: var(--muted); margin: 0 0 20px; line-height: 1.8; }
+.about-body > p:last-of-type { color: var(--accent-light); }
 .about-quote {
   border-left: 1px solid var(--accent);
   padding: 4px 0 4px 24px;
@@ -374,10 +375,13 @@ a:hover { color: var(--muted); }
   font-size: 0.85rem;
   padding: 8px 16px;
   border-radius: 999px;
-  background: var(--accent-soft);
-  color: var(--ink);
+  border: 1px solid var(--accent-strong);
+  background: transparent;
+  color: var(--accent-light);
   font-weight: 500;
+  transition: background 0.3s ease, color 0.3s ease;
 }
+.skills span:hover { background: var(--accent-strong); color: #fff; }
 
 /* Services */
 .services-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 60px 40px; }
